@@ -36,12 +36,9 @@ def square_array(numbers)
   i = 0
 
   while i < numbers.length do
-    
+
     newSquaredArray.push(numbers[i]*numbers[i])
     i += 1
-  end 
+  end
 
 end
-
-
-
