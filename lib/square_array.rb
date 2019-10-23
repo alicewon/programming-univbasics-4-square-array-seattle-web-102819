@@ -9,4 +9,4 @@ squaring = (numbers[i])* i
     i +=1
   end
 end
-p square_array
+p square_array([3,6,9])
