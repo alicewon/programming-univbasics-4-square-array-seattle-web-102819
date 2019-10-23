@@ -21,7 +21,7 @@ def square_array(numbers)
   i = 0
   while i < numbers.length do
     puts numbers[i]
-    square_array.push(numbers[i]*numbers[i])
+    square_array.push(1)
     i += 1
   end
 
