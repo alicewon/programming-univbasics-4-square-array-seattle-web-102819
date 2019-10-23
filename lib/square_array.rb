@@ -1,12 +1,12 @@
 def square_array(numbers)
   i = 0
-  squared_numbers = []
+  square_array = []
 
 squaring = (numbers[i])* i
 
   while i < numbers.length do
-    squared_numbers.push(squaring)
+    square_array.push(squaring)
     i +=1
   end
 end
-p squared_numbers
+p square_array
