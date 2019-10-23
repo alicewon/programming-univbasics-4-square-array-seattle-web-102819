@@ -10,5 +10,4 @@ def square_array(numbers)
     end
 
   p squared_numbers
-
 end
