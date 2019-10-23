@@ -19,7 +19,6 @@ return square_array([3,6,9])
 
 def square_array(numbers)
   i = 0
-  numbers = [1,2,3,4]
   while i < numbers.length do
     puts numbers[i]
     square_array.push(numbers[i]*numbers[i])
