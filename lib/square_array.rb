@@ -8,6 +8,5 @@ def square_array(numbers)
       squared_numbers.push(numbers[i] = (i+1)**
       i +=1
     end
-
-  p squared_numbers
 end
+p squared_numbers
