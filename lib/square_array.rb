@@ -21,11 +21,9 @@ def square_array(numbers)
   i = 0
 
   while i < numbers.length do
-    puts numbers[i] 
+    puts numbers[i]
     square_array.push(numbers[i]*numbers[i])
     i += 1
   end
-    
-  end
 
-  
+  end
