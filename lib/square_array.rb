@@ -10,4 +10,4 @@ def square_array(numbers)
     i +=1
   end
 end
-p square_array([3,6,9])
+return square_array([3,6,9])
