@@ -15,7 +15,7 @@ end
 return square_array([3,6,9])
 
 
-=end
+
 
 def square_array(numbers)
   i = 0
@@ -26,3 +26,22 @@ def square_array(numbers)
   end
 
   end
+
+
+=end
+
+
+def square_array(numbers)
+  newSquaredArray =[]
+  i = 0
+
+  while i < numbers.length do
+    
+    newSquaredArray.push(numbers[i]*numbers[i])
+    i += 1
+  end 
+
+end
+
+
+
